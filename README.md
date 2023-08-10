@@ -62,6 +62,8 @@ Note : Here rouge scores are multiplied by 100
 - For summarization it was pretrained by adding " TL;DR " (too long didn't read) between the input and the label
 - So while training we did the same
 
+- For all other models we used a prefix " Summarize: " before input text
+
 ### BART
 - This model is by Facebook AI research that combines Google's BERT as encoder and OpenAI's GPT as decoder .  It is bidirectional like BERT and is auto-regressive like GPT.
 - it also does a nice job
