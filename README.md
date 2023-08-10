@@ -1,4 +1,7 @@
 # NLP_summarization
+
+<img src="https://github.com/piyushjain4/NLP_summarization/blob/main/summarizer.png?raw=true" alt="RLE" width="400" />
+
 ### Description :
 - In this project, we will compare 5 different state-of-the-art models to summarize articles from BBC news dataset.
 - Given an article each model predicts the summary for the article.
@@ -12,6 +15,9 @@
   3) Tech
   4) sport
   5) business
+
+### visualizing data:
+<img src="https://github.com/piyushjain4/NLP_summarization/blob/main/Screenshot%202023-08-10%20221710.png?raw=true" alt="RLE" width="400" />
 
 ### Contents
 - Training_notebooks:  Contains the notebooks used for training. Contains training notebook for each of the 5 models
