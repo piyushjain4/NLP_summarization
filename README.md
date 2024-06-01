@@ -6,7 +6,10 @@
 - In this project, we will compare 5 different state-of-the-art models to summarize articles from BBC news dataset.
 - Given an article each model predicts the summary for the article.
 - Then we compare summaries predicted by the models.
-
+  
+### Screenshots from the project :
+<img src="https://github.com/piyushjain4/NLP_summarization/blob/main/Screenshot 2024-06-01 074835.png?raw=true" alt="RLE" width="400" />
+<img src="https://github.com/piyushjain4/NLP_summarization/blob/main/Screenshot 2024-06-01 075300.png?raw=true" alt="RLE" width="400" />
 ### Dataset:
 - The data is taken from [hugging face dataset](https://huggingface.co/datasets/gopalkalpande/bbc-news-summary)
 - The dataset contains summaries for about 2300 BBC-news articles of five different domains i.e;
