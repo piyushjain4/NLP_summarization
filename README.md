@@ -51,22 +51,21 @@
 | T5 | 35.93 | 27.79 |
 | Bart | 54.12 | 54.12 |
 | Longformer | 45.31 | 27.19 |
-| GPT-2 | 99.77 | 99.77 |
+| GPT-2 | 32.16 | 16.22 |
 | pegasus | 44.37 | 30.62 |
 
 Note : Here rouge scores are multiplied by 100
 
 ### GPT-2
-- As we can see GPT-2 outperforms all the other models by a big margin.
+- GPT performed the worst, likely because it is an autoregressive model rather than an encoder-decoder architecture.
+-  While GPT generates text by predicting the next token in a sequence, encoder-decoder models can utilize the entire input context, leading to better performance in tasks requiring full context understanding.
 - GPT-2 was trained as a language model so it could do many NLP tasks.
 - For summarization it was pretrained by adding " TL;DR " (too long didn't read) between the input and the label
-- So while training we did the same
 
 - For all other models we used a prefix " Summarize: " before input text
-
 ### BART
 - This model is by Facebook AI research that combines Google's BERT as encoder and OpenAI's GPT as decoder .  It is bidirectional like BERT and is auto-regressive like GPT.
-- it also does a nice job
+- it does a commendable job at providing extractive summaries from the text.
 
 ### Longformer
 - Transformer-based models are unable to process long sequences due to their self-attention operation, which scales quadratically with the sequence length
