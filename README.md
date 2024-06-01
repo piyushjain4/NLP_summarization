@@ -83,6 +83,9 @@ Note : Here rouge scores are multiplied by 100
 - It uses pretraining objectives based on abstractive summarization
 - It performed quite well for our dataset and produced good abstractive summaries i,e; output contains new text and summaries not present in input
 
+### Follow up Work
+- We could add an extra feature that provides a summary from any website given its URL. This enhancement would enable users to quickly understand the content of a webpage without needing to read the entire text.
+
 
 
 
