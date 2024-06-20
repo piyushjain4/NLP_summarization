@@ -6,6 +6,9 @@
 - In this project, we will compare 5 different state-of-the-art models to summarize articles from BBC news dataset.
 - Given an article each model predicts the summary for the article.
 - Then we compare summaries predicted by the models.
+
+### Link to project :
+[Live Summarization Demo!](https://colab.research.google.com/drive/1HLG7Touc97xg1noJvg6u6hdwyPsEf4AR#scrollTo=zr8qrzvhBP_C)
   
 ### Screenshots from the project :
 <img src="https://github.com/piyushjain4/NLP_summarization/blob/main/Screenshot 2024-06-01 074835.png?raw=true" alt="RLE" width="400" />
